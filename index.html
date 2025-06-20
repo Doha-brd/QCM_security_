@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QCM - Protection des Données</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="qcm-container">
+    <h1>🛡️ QCM : Protéger les Données des Utilisateurs</h1>
+    <div id="quiz">
+      <div id="question-container"></div>
+      <div class="qcm-nav">
+        <button onclick="prevQuestion()" id="prev-btn" disabled>⬅ Précédent</button>
+        <button onclick="nextQuestion()" id="next-btn">Suivant ➡</button>
+      </div>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="qcm.js"></script>
+</body>
+</html>

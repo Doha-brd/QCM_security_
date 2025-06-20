@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.qcm-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 700px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2b4a6f;
+  margin-bottom: 30px;
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.choices label {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #d9e2ec;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f9fafb;
+  transition: all 0.3s ease;
+}
+
+.choices input[type="radio"] {
+  margin-right: 10px;
+}
+
+.choices label:hover {
+  background: #e0f0ff;
+  border-color: #84c5f4;
+}
+
+.qcm-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #2b4a6f;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e6a94;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+#result {
+  text-align: center;
+  font-size: 22px;
+  color: green;
+  margin-top: 30px;
+  font-weight: bold;
+}

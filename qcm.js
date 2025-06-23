@@ -90,12 +90,12 @@ const questions = [
     correctAnswer: 1
   },
   {
-    question: "Qu’est-ce que la pseudonymisation ?",
+    question: "Qu’est-ce que le chiffrement ?",
     choices: [
       "La suppression des données",
       "Le stockage en ligne",
       "Une technique qui remplace les données par des identifiants fictifs",
-      "Le cryptage des mots de passe"
+      "c) Une technique pour rendre les données illisibles sans clé"
     ],
     correctAnswer: 2
   }

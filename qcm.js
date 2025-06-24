@@ -72,12 +72,12 @@ const questions = [
   {
     question: "Une adresse IP est-elle une donnée personnelle ?",
     choices: [
-      "Non",
+      
       "Oui, car elle peut permettre d’identifier une personne",
       "Seulement en Europe",
       "Uniquement si elle est publique"
     ],
-    correctAnswer: 2
+    correctAnswer: 1
   },
   {
     question: "Quel est le rôle d’un mot de passe fort ?",
@@ -90,12 +90,12 @@ const questions = [
     correctAnswer: 2
   },
   {
-    question: "Qu’est-ce que le chiffrement ?",
+    question: "Qu’est-ce que le chiffrement des données",
     choices: [
       "La suppression des données",
       "Le stockage en ligne",
-      "Une technique qui remplace les données par des identifiants fictifs",
-      "Une technique pour rendre les données illisibles sans clé"
+      "Une technique de transformation des données pour les rendre illisibles sans clé "
+      "Une sauvegarde automatique dans le cloud"
     ],
     correctAnswer: 4
   }

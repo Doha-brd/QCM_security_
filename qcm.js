@@ -95,9 +95,9 @@ const questions = [
       "La suppression des données",
       "Le stockage en ligne",
       "Une technique qui remplace les données par des identifiants fictifs",
-      "c) Une technique pour rendre les données illisibles sans clé"
+      "Une technique pour rendre les données illisibles sans clé"
     ],
-    correctAnswer: 2
+    correctAnswer: 4
   }
 ];
 

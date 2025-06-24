@@ -7,7 +7,7 @@ const questions = [
       "Pour augmenter le trafic d’un site",
       "Pour améliorer le référencement Google"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Qu’est-ce qu’une donnée personnelle ?",
@@ -17,7 +17,7 @@ const questions = [
       "Une information qui identifie directement ou indirectement une personne",
       "Un cookie technique"
     ],
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Quel est l’objectif principal du RGPD ?",
@@ -27,7 +27,7 @@ const questions = [
       "Partager les données librement",
       "Créer des mots de passe"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Quelle est une bonne pratique de sécurité ?",
@@ -37,7 +37,7 @@ const questions = [
       "Utiliser l’authentification à deux facteurs",
       "Désactiver les mises à jour"
     ],
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Qui est responsable de la protection des données dans une entreprise ?",
@@ -47,7 +47,7 @@ const questions = [
       "Le client",
       "Le community manager"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Qu’est-ce qu’une violation de données ?",
@@ -57,7 +57,7 @@ const questions = [
       "Un accès non autorisé ou une fuite de données",
       "Une suppression manuelle d’un fichier"
     ],
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     question: "Que doit faire un site web en cas de collecte de données ?",
@@ -67,7 +67,7 @@ const questions = [
       "Afficher des pubs",
       "Collecter tout automatiquement"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Une adresse IP est-elle une donnée personnelle ?",
@@ -77,7 +77,7 @@ const questions = [
       "Seulement en Europe",
       "Uniquement si elle est publique"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Quel est le rôle d’un mot de passe fort ?",
@@ -87,7 +87,7 @@ const questions = [
       "Partager les fichiers",
       "Créer une sauvegarde automatique"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     question: "Qu’est-ce que le chiffrement ?",

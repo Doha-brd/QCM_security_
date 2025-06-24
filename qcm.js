@@ -97,7 +97,7 @@ const questions = [
       "Une technique de transformation des données pour les rendre illisibles sans clé "
       "Une sauvegarde automatique dans le cloud"
     ],
-    correctAnswer: 4
+    correctAnswer: 3
   }
 ];
 
